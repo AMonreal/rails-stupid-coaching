@@ -1,3 +1,57 @@
 // Place all the styles related to the CoachingController controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.title {
+font-family: 'Source Sans Pro', sans-serif;
+color:#203562;
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+background-color: #E3E8F8;
+align-content: center;
+padding: 20px;
+margin: 20px;
+border-radius: 3px;
+}
+
+.find-me {
+color: #3E588F;
+}
+
+.btn-ask {
+  background-color: #CF4647;
+  border-radius: 3px;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px;
+  margin: 5px;
+}
+
+.coach_answer {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.answer {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.banner {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #3E588F;
+border-radius: 3px;
+flex-grow: 1;
+}
+
+.btn-ask2 {
+  background-color: #CF4647;
+  border-radius: 3px;
+  text-decoration: none;
+}

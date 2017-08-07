@@ -1,5 +1,15 @@
-<h1>CoachingController#answer</h1>
-<p>Find me in app/views/coaching_controller/answer.html.erb</p>
-
-<%= @answer %>
-<%= link_to "Ask another question", ask_path %>
+  <div class="container">
+    <h1 class="title">CoachingController#answer</h1>
+  </div>
+  <div class="banner">
+    <p class="find-me">Find me in app/views/coaching_controller/answer.html.erb</p>
+    <div class="answer">
+      <%= @answer %>
+    </div>
+    <%= @coach_answer %>
+    <button type="button" class="btn-ask"><h3>Ask Your Question</h3></button>
+    <div class="btn-ask2">
+      <%= link_to "Ask another question", ask_path %>
+    </div>
+  </div>
+</div>
